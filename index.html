@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FC Barcelona - Službena Stranica Navijača</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-100 text-gray-800 font-sans">
+
+    <header class="sticky top-0 z-50 bg-blue-900 border-b-4 border-red-600 shadow-md">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+            <a href="index.html" class="text-2xl md:text-3xl font-extrabold text-white tracking-wide hover:text-red-400 transition">
+                FC BARCELONA
+            </a>
+            
+            <nav class="hidden md:flex gap-8">
+                <a href="index.html" class="text-lg font-bold text-white hover:text-yellow-400 transition border-b-2 border-yellow-400 pb-1">Početna</a>
+                <a href="igraci.html" class="text-lg font-semibold text-gray-200 hover:text-yellow-400 transition">Igrači</a>
+                <a href="kontakt.html" class="text-lg font-semibold text-gray-200 hover:text-yellow-400 transition">Kontakt</a>
+            </nav>
+        </div>
+    </header>  
+
+    <nav class="md:hidden bg-blue-950 border-b border-red-600">
+        <div class="flex justify-around py-3 text-sm font-bold">
+            <a href="index.html" class="text-yellow-400">Početna</a>
+            <a href="igraci.html" class="text-white hover:text-yellow-400">Igrači</a>
+            <a href="kontakt.html" class="text-white hover:text-yellow-400">Kontakt</a>
+        </div>
+    </nav>
+
+    <section class="bg-gradient-to-br from-blue-900 via-blue-800 to-red-900 text-white">
+        <div class="max-w-6xl mx-auto px-6 py-16 flex flex-col md:flex-row items-center justify-between gap-10">
+            
+            <div class="md:w-1/2 text-center md:text-left">
+                <span class="inline-block bg-yellow-400 text-blue-950 text-xs font-black uppercase tracking-widest px-3 py-1 rounded-full mb-4">
+                    Més que un club
+                </span>
+                <h1 class="text-4xl md:text-6xl font-black leading-tight mb-4 tracking-tight">
+                    Dobrodošli u dom Blaugrane!
+                </h1>
+                <p class="text-lg text-blue-100 mb-8 max-w-lg leading-relaxed">
+                    Službena fan stranica posvećena FC Barceloni. Pratite prvu momčad, najnovije vijesti i mlade talente iz akademije La Masia.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+                    <a href="igraci.html" class="bg-yellow-400 hover:bg-yellow-300 text-blue-950 font-bold px-8 py-3 rounded-lg shadow-lg hover:shadow-xl transition text-center">
+                        Pogledaj igrače
+                    </a>
+                    <a href="kontakt.html" class="bg-red-700 hover:bg-red-600 text-white font-semibold px-8 py-3 rounded-lg shadow-md transition text-center border border-red-500">
+                        Kontaktirajte nas
+                    </a>
+                </div>
+            </div>
+
+            <div class="md:w-1/2 w-full flex justify-center">
+                <figure class="bg-blue-950/40 p-3 rounded-2xl shadow-2xl border border-white/10 backdrop-blur-sm"> 
+                    <img src="images/camp-nou.jpeg" alt="FC Barcelona Camp Nou" class="rounded-xl shadow-md w-full max-w-md h-64 object-cover" />
+                    <figcaption class="text-center text-xs text-blue-200 mt-3 font-medium">
+                        Spotify Camp Nou & Blaugrana boje
+                    </figcaption>
+                </figure>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="max-w-6xl mx-auto px-6 py-16">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-extrabold text-blue-950">Sekcije Kluba</h2>
+            <p class="text-gray-600 mt-2">Saznajte više o strukturi i kategorijama FC Barcelone</p>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            
+            <article class="bg-white border-t-4 border-blue-800 rounded-xl shadow-md hover:shadow-xl transition p-6 flex flex-col justify-between">
+                <div>
+                    <div class="w-12 h-12 bg-blue-100 text-blue-800 rounded-lg flex items-center justify-center font-bold text-xl mb-4">
+                        01
+                    </div>
+                    <h3 class="text-xl font-bold text-blue-950 mb-2">Prva Momčad</h3>
+                    <p class="text-gray-600 leading-relaxed mb-6">
+                        Prva nogometna momčad natječe se u natjecanjima La Liga, Copa del Rey i UEFA Ligi prvaka.
+                    </p>
+                </div>
+                <a href="igraci.html" class="inline-flex items-center font-bold text-red-600 hover:text-red-800 transition">
+                    Pogledaj popis igrača
+                </a>
+            </article>
+
+            <article class="bg-white border-t-4 border-red-600 rounded-xl shadow-md hover:shadow-xl transition p-6 flex flex-col justify-between">
+                <div>
+                    <div class="w-12 h-12 bg-red-100 text-red-700 rounded-lg flex items-center justify-center font-bold text-xl mb-4">
+                        02
+                    </div>
+                    <h3 class="text-xl font-bold text-blue-950 mb-2">La Masia Akademija</h3>
+                    <p class="text-gray-600 leading-relaxed mb-6">
+                        Svjetski poznata akademija iz koje dolaze najveći nogometni talenti i buduće zvijezde kluba.
+                    </p>
+                </div>
+                <a href="igraci.html" class="inline-flex items-center font-bold text-red-600 hover:text-red-800 transition">
+                    Mladi talenti 
+                </a>
+            </article>
+
+            <article class="bg-white border-t-4 border-yellow-400 rounded-xl shadow-md hover:shadow-xl transition p-6 flex flex-col justify-between">
+                <div>
+                    <div class="w-12 h-12 bg-yellow-100 text-yellow-700 rounded-lg flex items-center justify-center font-bold text-xl mb-4">
+                        03
+                    </div>
+                    <h3 class="text-xl font-bold text-blue-950 mb-2">Stadion & Povijest</h3>
+                    <p class="text-gray-600 leading-relaxed mb-6">
+                        Spotify Camp Nou je dom Barcelone još od 1957. godine s bogatom tradicijom i trofejima.
+                    </p>
+                </div>
+                <a href="kontakt.html" class="inline-flex items-center font-bold text-red-600 hover:text-red-800 transition">
+                    Više informacija 
+                </a>
+            </article>
+
+        </div>
+    </section>
+
+    <footer class="bg-blue-950 text-gray-300 border-t-4 border-red-600 py-10">
+        <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6 text-sm">
+            <div>
+                <p class="text-lg font-extrabold text-white">FC BARCELONA</p>
+                <p class="text-gray-400">Službena navijačka stranica</p>
+            </div>
+            
+            <div class="text-center md:text-right text-gray-300 space-y-1">
+                <p><strong class="text-white">Adresa:</strong> C. d'Aristides Maillol 12, Barcelona</p>
+                <p><strong class="text-white">E-mail:</strong> info@fcbarcelona.com | <strong class="text-white">Tel:</strong> +34 902 189 900</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

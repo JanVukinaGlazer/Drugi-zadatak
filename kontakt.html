@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt - FC Barcelona</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-100 text-gray-800 font-sans">
+      
+    <header class="sticky top-0 z-50 bg-blue-900 border-b-4 border-red-600 shadow-md">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+            <a href="index.html" class="text-2xl md:text-3xl font-extrabold text-white tracking-wide hover:text-red-400 transition">
+                FC BARCELONA - KONTAKT
+            </a>
+            
+            <nav class="hidden md:flex gap-8">
+                <a href="index.html" class="text-lg font-semibold text-gray-200 hover:text-yellow-400 transition">Početna</a>
+                <a href="igraci.html" class="text-lg font-semibold text-gray-200 hover:text-yellow-400 transition">Igrači</a>
+                <a href="kontakt.html" class="text-lg font-bold text-white hover:text-yellow-400 transition border-b-2 border-yellow-400 pb-1">Kontakt</a>
+            </nav>
+        </div>
+    </header>
+
+    <nav class="md:hidden bg-blue-950 border-b border-red-600">
+        <div class="flex justify-around py-3 text-sm font-bold">
+            <a href="index.html" class="text-white hover:text-yellow-400">Početna</a>
+            <a href="igraci.html" class="text-white hover:text-yellow-400">Igrači</a>
+            <a href="kontakt.html" class="text-yellow-400">Kontakt</a>
+        </div>
+    </nav>
+
+    <section class="max-w-3xl mx-auto px-6 py-16">
+        <div class="bg-white rounded-2xl shadow-xl border-t-4 border-blue-800 p-8 md:p-12">
+            
+            <div class="mb-8 text-center md:text-left">
+                <span class="inline-block bg-yellow-400 text-blue-950 text-xs font-black uppercase tracking-widest px-3 py-1 rounded-full mb-3">
+                    Stupite u kontakt
+                </span>
+                <h1 class="text-3xl font-extrabold text-blue-950">Pošaljite nam poruku</h1>
+                <p class="text-gray-600 mt-2">Imate pitanje o ulaznicama, članstvu ili klubu? Rado ćemo vas saslušati.</p>
+            </div>
+
+            <form class="flex flex-col gap-6">
+                <div class="flex flex-col md:flex-row gap-6">
+                    <div class="flex flex-col gap-2 w-full">
+                        <label for="name" class="text-sm font-bold text-blue-950">Ime i prezime</label>
+                        <input type="text" id="name" name="name" placeholder="Unesite vaše ime..." class="border border-gray-300 rounded-lg px-4 py-3 focus:border-red-600 focus:outline-none transition">
+                    </div>
+
+                    <div class="flex flex-col gap-2 w-full">
+                        <label for="email" class="text-sm font-bold text-blue-950">E-mail adresa</label>
+                        <input type="email" id="email" name="email" placeholder="vas.email@primjer.com" class="border border-gray-300 rounded-lg px-4 py-3 focus:border-red-600 focus:outline-none transition">
+                    </div>
+                </div>
+
+                <div class="flex flex-col gap-2 w-full">
+                    <label for="phone" class="text-sm font-bold text-blue-950">Broj telefona</label>
+                    <input type="tel" id="phone" name="phone" placeholder="+385 ..." class="border border-gray-300 rounded-lg px-4 py-3 focus:border-red-600 focus:outline-none transition">
+                </div>
+
+                <div class="flex flex-col gap-2">
+                    <label for="message" class="text-sm font-bold text-blue-950">Vaša poruka ili upit prema klubu:</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Napišite poruku ovdje..."
+                    class="border border-gray-300 rounded-lg p-4 focus:border-red-600 focus:outline-none transition"></textarea>
+                </div>
+
+                <button type="submit" class="bg-red-700 hover:bg-red-800 text-white font-bold text-base px-8 py-4 rounded-lg shadow-lg hover:shadow-xl transition text-center cursor-pointer">
+                    Pošalji poruku FC Barceloni
+                </button>
+
+            </form>
+        </div>
+    </section>
+
+    <footer class="bg-blue-950 text-gray-300 border-t-4 border-red-600 py-10">
+        <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6 text-sm">
+            <div>
+                <p class="text-lg font-extrabold text-white">FC BARCELONA</p>
+                <p class="text-gray-400">Službena navijačka stranica</p>
+            </div>
+            
+            <div class="text-center md:text-right text-gray-300 space-y-1">
+                <p><strong class="text-white">Adresa:</strong> C. d'Aristides Maillol 12, Barcelona</p>
+                <p><strong class="text-white">E-mail:</strong> info@fcbarcelona.com | <strong class="text-white">Tel:</strong> +34 902 189 900</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
